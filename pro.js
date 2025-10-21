@@ -6,6 +6,7 @@ function restgame() {
   document.querySelector(".message").textContent = "Start guessing...";
   document.querySelector(".number").textContent = "?";
   document.querySelector(".score").textContent = "5";
+  let a = 1
   document.querySelector(".score").textContent = score;
   document.body.style.backgroundColor = "#222";
   console.log("new number:", rand);
